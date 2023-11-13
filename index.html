@@ -9,6 +9,13 @@
 
 <body>
     <section class="h-screen">
+
+        <section class="bg-gray-500 h-screen w-3/5 absolute">
+            <div>
+                <p>Hola mundo</p>
+            </div>
+        </section>
+
         <nav class="h-[6vh] flex justify-between">
             <div class="flex h-[3vh] mx-2">
                 <img src="./assets/icons/icon-menu.svg" alt="">
@@ -22,6 +29,8 @@
 
         </nav>
 
+        
+
         <section class="h-[94vh]">
             <div class="h-[38vh]">
                 <div class="h-[38vh] relative">
@@ -29,7 +38,7 @@
                         <img src="./assets/images/image-product-1.jpg" alt="" class=" w-full h-full">
                     </div>
 
-                    <div class="absolute top-2/4 bg-white rounded-full left-0 mx-4 p-2">
+                    <div class="block absolute top-2/4 bg-white rounded-full left-0 mx-4 p-2">
                         <img src="./assets/icons/icon-previous.svg" alt="" class="h-3">
                     </div>
 
@@ -41,7 +50,7 @@
 
                 <div class="h-[52vh] px-4">
                     <h3 class="text-orange-400 uppercase text-xs font-bold my-3">Sneaker company</h3>
-                    <h1 class="font-semibold text-2xl mr-8 border">Fall Limited Edition Sneakers</h1>
+                    <h1 class="font-semibold text-2xl mr-8">Fall Limited Edition Sneakers</h1>
                     <p class="text-sm my-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima magni
                         expedita ipsum modi sunt. Tenetur suscipit possimus nulla, dolorem esse facilis molestiae
                         tempore repudiandae adipisci quos.</p>
@@ -59,13 +68,13 @@
 
                     <div class="flex justify-between border bg-gray-100 rounded-md h-[7vh] my-4 px-4">
                         <div class="py-5">
-                            <img src="./assets/icons/icon-minus.svg" alt="">
+                            <img src="./assets/icons/icon-minus.svg" alt="" id="btnSubtract">
                         </div>
                         <div class="py-2">
-                            0
+                            <p id="count">0</p>
                         </div>
                         <div class="py-4">
-                            <img src="./assets/icons/icon-plus.svg" alt="">
+                            <img src="./assets/icons/icon-plus.svg" alt="" id="btnAdd">
                         </div>
                     </div>
 
@@ -90,7 +99,7 @@
     </section>
 
 
-
+    <script src="./js/index.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 </body>
 
